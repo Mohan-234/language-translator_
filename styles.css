@@ -1,0 +1,103 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family:'Courier New', Courier, monospace;
+}
+body{
+  align-items:center;
+  justify-content:center;
+  padding: 0 10px;
+  background:black;
+}
+.container{
+  margin-top:70px;
+  margin-left:350px;
+  max-width:700px;
+  width:100%;
+  padding:30px;
+  background:white;
+  border-radius: 7px;
+}
+.wrap{
+  border-radius: 3px;
+  border: 1px solid #9a9090;
+}
+.wrap .text-input{
+  display: flex;
+  border-bottom: 1px solid #b7b0b0;
+}
+.text-input .to-text{
+  border-radius: 0px;
+  border-left: 1px solid #b4a7a7;
+}
+.text-input textarea{
+  height: 250px;
+  width: 100%;
+  border: none;
+  outline: none;
+  resize: none;
+  background: none;
+  font-size: 18px;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+.controls, li, .icons, .icons i{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.controls{
+  list-style: none;
+  padding: 12px 15px;
+}
+.controls .row .icons{
+  width: 40%;
+}
+.controls .row .icons i{
+  width: 50px;
+  color: black;
+  font-size: 14px;
+  cursor: pointer;
+  justify-content: center;
+}
+.controls .row.from .icons{
+  padding-right: 15px;
+  border-right: 1px solid black;
+}
+.controls .row.to .icons{
+  padding-left: 15px;
+  border-left: 1px solid black;
+}
+.controls .row select{
+  color: #333;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  background: none;
+  padding-left: 5px;
+}
+.controls .row select{
+  background: white;
+  border-radius: 8px;
+  border-right: 3px solid #ffffff;
+}
+.container button{
+  width: 50%;
+  padding: 14px;
+  color:white;
+  margin-top:20px;
+  font-size: 20px;
+  border-radius: 6px;
+  background:black;
+}
+  .container{
+    padding: 20px;
+  }
+  .text-input textarea{
+    height: 200px;
+  }
+  .container button{
+    padding: 13px;
+    font-size: 16px;
+  }
+

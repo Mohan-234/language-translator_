@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">  
+    <title>Language Translator</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+  </head>
+  <body>
+    <div class="top">
+        <h2 style="text-align: center; color:white; margin-top: 30px;">Live Language Transaltor</h2>
+        <p style="text-align: center; color:white;">The Real-Time Live Language Translator has the potential to revolutionize global communication by breaking down language barriers and facilitating seamless conversations between people who speak different languages.</p>
+    </div>
+    <div class="container">
+      <div class="wrap">
+        <div class="text-input">
+          <textarea class="from-text" placeholder="Enter text"></textarea>
+          <textarea class="to-text" placeholder="Translated text"></textarea>
+        </div>
+        <ul class="controls">
+          <li class="row from">
+            <div class="icons">
+              <i id="from" class="fas fa-volume-up"></i>
+              <i id="from" class="fas fa-copy"></i>
+            </div>
+            <select></select>
+          </li>
+          <li class="exchange"><i class="fas fa-exchange-alt"></i></li>
+          <li class="row to">
+            <select></select>
+            <div class="icons">
+              <i id="to" class="fas fa-volume-up"></i>
+              <i id="to" class="fas fa-copy"></i>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <button>Translate Text</button><span><button class="c">CLEAR</button></span>
+    </div>
+    <script src="country.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
